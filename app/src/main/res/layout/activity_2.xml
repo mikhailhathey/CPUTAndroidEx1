@@ -69,6 +69,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:text="I have read the Message"
         app:layout_constraintBottom_toTopOf="@+id/titleForGoToAct3Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
