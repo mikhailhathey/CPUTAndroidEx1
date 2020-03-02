@@ -26,10 +26,10 @@ public class Activity5 extends AppCompatActivity {
 
         TextViewHeader = "Messages from Activity 4";
         textInput = findViewById(R.id.editTextAct5);
-        TextInput = textInput.getText().toString();
+        TextInput = textInput.getText().toString(); //Move this to OnClick Method - Line 1
         textView = findViewById(R.id.textViewPg5);
         GetIntent = Objects.requireNonNull(getIntent().getExtras()).getString("Page4Value");
-        PutExtra = String.format("%s\n %s", GetIntent, TextInput);
+        PutExtra = String.format("%s\n %s", GetIntent, TextInput); //Move this to OnClick Method - Line 2
         textView.setText(String.format("%s\n %s", TextViewHeader, PutExtra));
 
         /*editText5 = findViewById(R.id.editTextAct5);
